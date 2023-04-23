@@ -87,7 +87,7 @@ go get github.com/briandowns/spinner
 package main
 
 import (
-	"github.com/briandowns/spinner"
+	"github.com/ShizuAutomations/spinner"
 	"time"
 )
 

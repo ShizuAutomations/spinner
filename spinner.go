@@ -324,9 +324,9 @@ func (s *Spinner) Start() {
 	}
 	// Disable colors for simple Windows CMD or Powershell
 	// as they can not recognize them
-	if isWindows && !isWindowsTerminalOnWindows {
-		color.NoColor = true
-	}
+	// if isWindows && !isWindowsTerminalOnWindows {
+	// 	// color.NoColor = true
+	// }
 
 	s.active = true
 	s.mu.Unlock()

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/briandowns/spinner"
+	"github.com/ShizuAutomations/spinner"
 )
 
 func main() {
